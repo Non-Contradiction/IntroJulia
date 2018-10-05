@@ -11933,7 +11933,10 @@ a.anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="R-is-slow,-how-about-writing-functions-in-C/Cpp?">R is slow, how about writing functions in C/Cpp?<a class="anchor-link" href="#R-is-slow,-how-about-writing-functions-in-C/Cpp?">&#182;</a></h1><h2 id="Pros">Pros<a class="anchor-link" href="#Pros">&#182;</a></h2><ul>
+<h1 id="Solution-1:-write-code-in-C/Cpp-and-then-call-it-from-R/Python/MATLAB">Solution 1: write code in C/Cpp and then call it from R/Python/MATLAB<a class="anchor-link" href="#Solution-1:-write-code-in-C/Cpp-and-then-call-it-from-R/Python/MATLAB">&#182;</a></h1><ul>
+<li>R is slow, how about writing functions in C/Cpp?</li>
+</ul>
+<h2 id="Pros">Pros<a class="anchor-link" href="#Pros">&#182;</a></h2><ul>
 <li>Faster functions.</li>
 </ul>
 <h2 id="Cons">Cons<a class="anchor-link" href="#Cons">&#182;</a></h2><ul>
@@ -11981,23 +11984,19 @@ a.anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Just-In-Time-(JIT)-Compiling">Just In Time (JIT) Compiling<a class="anchor-link" href="#Just-In-Time-(JIT)-Compiling">&#182;</a></h1><ul>
+<h1 id="Solution-2:-Just-In-Time-(JIT)-Compiling">Solution 2: Just In Time (JIT) Compiling<a class="anchor-link" href="#Solution-2:-Just-In-Time-(JIT)-Compiling">&#182;</a></h1><ul>
 <li><p>Functions need to be executed will be compiled first.</p>
 </li>
 <li><p>JIT is widely used, in Julia, in your browser (Google V8), in MATLAB, in Python (numba), and in R.</p>
 </li>
 </ul>
 <h2 id="MATLAB-and-Python's-JIT">MATLAB and Python's JIT<a class="anchor-link" href="#MATLAB-and-Python's-JIT">&#182;</a></h2><h3 id="Pros">Pros<a class="anchor-link" href="#Pros">&#182;</a></h3><ul>
-<li><p>Fast when they work.</p>
-</li>
-<li><p>Being optimized for much longer than Julia.</p>
-</li>
+<li>Fast when they work.</li>
+<li>Being optimized for much longer than Julia.</li>
 </ul>
 <h3 id="Cons">Cons<a class="anchor-link" href="#Cons">&#182;</a></h3><ul>
-<li><p>It's limited.</p>
-</li>
-<li><p>It doesn't compose well.</p>
-</li>
+<li>It's limited.</li>
+<li>It doesn't compose well.</li>
 </ul>
 
 </div>
