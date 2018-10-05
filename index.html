@@ -11908,7 +11908,7 @@ a.anchor-link {
 <h1 id="Introduction-to-Julia-and-JuliaCall">Introduction to Julia and JuliaCall<a class="anchor-link" href="#Introduction-to-Julia-and-JuliaCall">&#182;</a></h1>
 </div>
 </div>
-</div>
+</div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
@@ -11933,8 +11933,8 @@ a.anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Solution-1:-write-code-in-C/Cpp-and-then-call-it-from-R/Python/MATLAB">Solution 1: write code in C/Cpp and then call it from R/Python/MATLAB<a class="anchor-link" href="#Solution-1:-write-code-in-C/Cpp-and-then-call-it-from-R/Python/MATLAB">&#182;</a></h1><ul>
-<li>R is slow, how about writing functions in C/Cpp?</li>
+<h1 id="Solution-1:-write-code-in-C/Cpp">Solution 1: write code in C/Cpp<a class="anchor-link" href="#Solution-1:-write-code-in-C/Cpp">&#182;</a></h1><ul>
+<li>R is slow, how about writing functions in C/Cpp and then call it from R?</li>
 </ul>
 <h2 id="Pros">Pros<a class="anchor-link" href="#Pros">&#182;</a></h2><ul>
 <li>Faster functions.</li>
@@ -12270,10 +12270,10 @@ EXIT: Optimal Solution Found.
 <li><p>Similar to S3 system in R: <code>print.lm</code>, <code>anova.lm</code>, etc, but works on multiple arguments, and is <strong>fast</strong>!</p>
 </li>
 <li><p>A simple example:</p>
-<p>julia&gt; function f(x::Integer) x+1 end
-  f (generic function with 1 method)</p>
-<p>julia&gt; function f(x::AbstractFloat) 3 * x end
-  f (generic function with 2 methods)</p>
+<p>julia&gt; function f(x::Integer) x+1 end</p>
+<p>## f (generic function with 1 method)</p>
+<p>julia&gt; function f(x::AbstractFloat) 3 * x end</p>
+<p>## f (generic function with 2 methods)</p>
 </li>
 </ul>
 
