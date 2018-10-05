@@ -1,0 +1,23 @@
+\BOOKMARK [1][-]{section.1}{Introduction to Julia and JuliaCall}{}% 1
+\BOOKMARK [1][-]{section.2}{Structure of the talk}{}% 2
+\BOOKMARK [1][-]{section.3}{Solution 1: write code in C/Cpp}{}% 3
+\BOOKMARK [2][-]{subsection.3.1}{Pros}{section.3}% 4
+\BOOKMARK [2][-]{subsection.3.2}{Cons}{section.3}% 5
+\BOOKMARK [2][-]{subsection.3.3}{An example from R itself}{section.3}% 6
+\BOOKMARK [1][-]{section.4}{Solution 2: Just In Time \(JIT\) Compiling}{}% 7
+\BOOKMARK [2][-]{subsection.4.1}{MATLAB and Python's JIT}{section.4}% 8
+\BOOKMARK [3][-]{subsubsection.4.1.1}{Pros}{subsection.4.1}% 9
+\BOOKMARK [3][-]{subsubsection.4.1.2}{Cons}{subsection.4.1}% 10
+\BOOKMARK [1][-]{section.5}{Julia's advantage}{}% 11
+\BOOKMARK [2][-]{subsection.5.1}{An example}{section.5}% 12
+\BOOKMARK [1][-]{section.6}{Julia}{}% 13
+\BOOKMARK [2][-]{subsection.6.1}{Official website}{section.6}% 14
+\BOOKMARK [2][-]{subsection.6.2}{IDEs}{section.6}% 15
+\BOOKMARK [2][-]{subsection.6.3}{Version choice}{section.6}% 16
+\BOOKMARK [1][-]{section.7}{Advanced: multiple dispatch}{}% 17
+\BOOKMARK [1][-]{section.8}{More advanced}{}% 18
+\BOOKMARK [2][-]{subsection.8.1}{Some more advanced and comprehensive introductions}{section.8}% 19
+\BOOKMARK [1][-]{section.9}{JuliaCall}{}% 20
+\BOOKMARK [2][-]{subsection.9.1}{Website}{section.9}% 21
+\BOOKMARK [1][-]{section.10}{Questions?}{}% 22
+\BOOKMARK [1][-]{section.11}{Thank you}{}% 23
